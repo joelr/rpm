@@ -105,8 +105,8 @@ module NewRelic::Rack
     end
 
     def find_x_ua_compatible_position(beginning_of_source)
-      match = X_UA_COMPATIBLE_RE.match(beginning_of_source)
-      match.end(0) if match
+      #match = X_UA_COMPATIBLE_RE.match(beginning_of_source)
+     # match.end(0) if match
     end
 
     def find_charset_position(beginning_of_source)
